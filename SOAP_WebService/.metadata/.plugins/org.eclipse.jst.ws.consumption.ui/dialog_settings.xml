@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.jst.ws.client.type.java">
+		<item value="http://localhost:8080/CalculatorService/services/Calculator?wsdl"/>
+		<item value="http://localhost:8080/CalculatorService-JAXWS-0.0.1-SNAPSHOT/services/calculator?wsdl"/>
+		<item value="/CalculatorService-JAXWS/generated/resources/wsdl/CalculatorService.wsdl"/>
+		<item value="/CalculatorService/src/main/webapp/wsdl/Calculator.wsdl"/>
+	</list>
+</section>

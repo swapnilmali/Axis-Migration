@@ -1,0 +1,23 @@
+package com;
+
+public class Calculator {
+	int c;
+ public int add(int a, int b) {
+  return a+b;
+ }
+ public int sub(int a, int b) {
+	  return a-b;
+	 }
+ public int mul(int a, int b) {
+	  return a*b;
+	 }
+ public int dic(int a, int b) {
+	  try{int c= a/b;}
+	  catch(ArithmeticException e) {
+		  System.out.println("Can't be divided by Zero"+e);}
+		  catch(NumberFormatException e) {
+			  System.out.println("Not a Number"+e);}
+		finally {return c;}  
+	  
+	 }
+}
